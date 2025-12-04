@@ -14,7 +14,7 @@ spec:
         userprofile:
           activeVersion: blue
   destination:
-    server: https://sharon-cluster-dns-i8b01x4a.hcp.centralindia.azmk8s.io
+    server: https://sharon-cluster-dns-i8b01x4a.hcp.centralindia.azmk8s.io:443
     namespace: retail
   syncPolicy:
     automated:
