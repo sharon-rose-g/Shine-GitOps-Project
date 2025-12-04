@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/Msocial123/Shine-GitOps-Project.git
+    repoURL: https://github.com/sharon-rose-g/Shine-GitOps-Project.git
     targetRevision: main
     path: Retail-chart
     helm:
@@ -14,7 +14,7 @@ spec:
         userprofile:
           activeVersion: blue
   destination:
-    server: https://F8C05FAA761A5324F0F3D3F7B7A7B642.gr7.us-west-2.eks.amazonaws.com
+    server: https://sharon-cluster-dns-i8b01x4a.hcp.centralindia.azmk8s.io
     namespace: retail
   syncPolicy:
     automated:
