@@ -9,8 +9,8 @@ database:
 
 userprofile:
   name: userprofile-deployment
-  image: saiteja2502/userprofileretail:latest
-  port: 3130
+  image: muralisocial123/web-app-java:v1.1.0
+  port: 8080
   mongodbUri: "mongodb://mongodb-deployment:27017/myDatabase"
   label: userprofile
   activeVersion: blue  # Change to 'green' when switching versions
